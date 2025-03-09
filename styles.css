@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabeza{
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1240px;
+}
+
+.logo{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.logo span{
+    color: orange;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.navegacion a:hover{
+    color: #ffffff;
+    background-color: orange;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+
+.navegacion{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+.presentacion{
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+    margin-inline: auto;
+    display: flex;
+    width: 90%;
+}
+
+.informacion{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+    align-items: flex-start;
+    font-size: 25px;
+}
+
+.boton button{
+padding: 10px;
+background-color: orange;
+border: 1px solid orange;
+border-radius: 10px;
+font-size: 30px;
+}
+
+.boton a{
+    text-decoration: none;
+    color: white;
+}
+
+.boton button:hover{
+    cursor: pointer;
+
+}
+
+.imagenprincipal{
+    max-width: 900px;
+}
+
+.navegacion a:hover{
+    color: #ffffff;
+    background-color: orange;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.imagen1{
+    width: 900px;
+    padding-top: 30px;
+}
+
+.comida{
+    width: 90%;
+    margin-inline:auto;
+}
+.platos{
+    display: grid;
+}
+
+.platos{
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.comida--titulo{
+    text-align: center;
+    font-size: 50px;
+}
+.comidatitulo{
+    text-align: start;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.plato{
+    width: 80%;
+    margin-inline:auto;
+    margin-top: 60px;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #c4c4c46d;
+}
+.plato img{
+width: 300px;
+width: 60%;
+}
+
+h3{
+    font-size: 40px;
+}
+
+.plato p{
+font-size: 30px;
+color: black;
+}
+.desc{
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.plato--info{
+    text-align: center;
+}
+
+.descp{
+    font-weight: 900;
+}
+.desc button{
+    background-color: orange;
+    color: white;
+    font-weight: 900;
+    padding: 5px 12px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+.desc button:hover{
+    cursor: pointer;
+}
+
+hr{
+    border: 8px solid orange;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer{
+    background-color: orange;
+    color: #000000;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+footer p{
+font-weight: bold;
+color: white;
+font-size: 30px;
+}
+

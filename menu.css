@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabeza{
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.logo span{
+    color: orange;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.navegacion a:hover{
+    color: #ffffff;
+    background-color: orange;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+
+.navegacion{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+hr{
+    border: 8px solid orange;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+    margin-bottom: 40px;
+}
+
+.pagina{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu img {
+    width: 100%;
+    height: auto;
+}
+
+.menu h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.menu p {
+    padding: 0 15px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.precio {
+    color: #000000;
+    font-weight: bold;
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+
+footer{
+    background-color: orange;
+    color: #000000;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+footer p{
+font-weight: bold;
+color: white;
+font-size: 30px;
+}
